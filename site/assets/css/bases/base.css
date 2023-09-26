@@ -1,0 +1,46 @@
+html {
+	scroll-padding-top: 73px; /* height of sticky header */
+}
+
+@media (min-width: 1201px) {
+	html {
+		scroll-padding-top: 60px; /* height of sticky header */
+	}
+}
+  
+body {
+	background: #000 url(../../img/bg1.jpg) no-repeat 50% 0 / auto 500px;
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+	body {
+		background: #000 url(../../img/bg1.jpg) no-repeat 50% 0 / 100% auto;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'swiss_721black_condensed';
+}
+
+
+@media (min-width: 1440px) {
+	.container {
+		max-width: 1400px;
+	}
+}
+
+.main {
+	margin-bottom: 30px;
+	overflow-x: hidden;
+}
+
+.cor-preto {
+	color: #000;
+}
+
+.bg-preto {
+	background: #000;
+}

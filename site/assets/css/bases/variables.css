@@ -1,0 +1,25 @@
+:root {
+    --cor-principal: #ffcb00;
+    --cor-complementar1: #373737;
+    --cor-complementar2: #232323;
+
+    --cor-complementar3: #404040;
+    --cor-complementar4: #327a41;
+    --cor-complementar5: #9ac25b;
+    --cor-complementar6: #356916;
+    --cor-complementar7: #447626;
+    --cor-complementar8: #76cf40;
+    --cor-complementar9: #184421;
+    --cor-complementar10: #2e703b;
+    --cor-complementar11: #a5dc4d;
+    --cor-complementar12: #235d36;
+    --cor-complementar13: #90bc4a;
+    --cor-complementar14: #ebebeb;
+    --cor-complementar15: #30692e;
+    --cor-complementar16: #323232;
+
+    --cor-branco: #fff;
+
+    /*--bs-primary-rgb: var(--cor-complementar1);*/
+
+}

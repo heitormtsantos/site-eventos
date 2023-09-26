@@ -1,0 +1,25 @@
+.contato {
+    position: relative;
+}
+
+.contato:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 60%;
+    background: var(--cor-complementar1);
+    z-index: -1;
+    opacity: .5;
+}
+
+.contato__form {
+    background: url(../../img/bg-5.jpg) no-repeat 50% 0 / cover;
+}
+
+.form-control {
+    border: 0;
+    background: #000;
+    color: #fff;
+}

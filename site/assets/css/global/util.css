@@ -1,0 +1,27 @@
+/* Util */
+.util {
+	position: relative;
+	z-index: 1000;
+	background: linear-gradient(to right, var(--cor-principal), var(--cor-complementar1));
+	color: #fff;
+	padding: 5px 0;
+}
+
+.util p {
+	font-size: 0.87em;
+	margin-bottom: 0;
+}
+
+.util a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+	.util p {
+    	font-size: 0.77em;
+	}
+}
+
+/* End util */

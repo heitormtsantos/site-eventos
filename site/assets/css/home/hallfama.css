@@ -1,0 +1,54 @@
+.hallfama h2 {
+	font-size: 2.5rem;
+	color: var(--cor-principal);
+	margin-bottom: 0;
+
+}
+
+@media (min-width: 768px) {
+	.hallfama h2 {
+		font-size: 5rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	.hallfama h2 {
+		font-size: 7.8rem;
+		line-height: 5.4rem;
+	}
+}
+
+.hallfama__conteudo {
+	background: url(../../img/bg3.jpg) repeat 50% 0;
+}
+
+.swiper-hallfama .swiper-button-prev:after,
+.swiper-hallfama .swiper-button-next:after {
+    filter: brightness(0) invert(1);
+}
+
+.swiper-button-next-hallfama, 
+.swiper-button-prev-hallfama {
+	width: 44px !important;
+}
+
+.swiper-button-prev-hallfama {
+    left: 20px !important;
+}
+
+.swiper-button-next-hallfama {
+    right: 20px !important;
+}
+
+.swiper-hallfama__item {
+	padding: 10px;
+}
+
+.swiper-hallfama__item img {
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+}
+
+.swiper-hallfama__item strong {
+	font-size: 1.6rem;
+	font-family: 'swiss_721black_condensed';
+}

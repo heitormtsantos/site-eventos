@@ -1,0 +1,65 @@
+.titulo1,
+.titulo1 a {
+	font-weight: bold;
+	color: var(--cor-principal);
+	text-decoration: none;
+}
+
+.titulo2 {
+	font-weight: bold;
+	color: var(--cor-complementar1);
+	text-transform: uppercase;
+	font-size: 1.25rem;
+}
+
+.titulo3 {
+	font-weight: bold;
+	color: var(--cor-principal);
+	text-transform: uppercase;
+	font-size: 1.25rem;
+}
+
+@media (max-width: 600px) {
+    .main__industries .titulo3 {
+        font-size: 1rem;
+    }
+}
+
+.titulo4 {
+	font-weight: bold;
+	color: var(--cor-complementar16);
+	text-transform: uppercase;
+	font-size: 1.25rem;
+}
+
+
+.titulo-pagina h1 {
+	color: var(--cor-complementar4);
+	font-size: 2.25rem;
+	position: relative;
+	margin-top: 25px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 998px) {
+	.titulo-pagina h1 {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 600px) {
+    .titulo-pagina h1 {
+        font-size: 1.8rem;
+    }
+}
+
+.titulo-pagina h1:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 3px;
+	right: 0;
+	height: 2px;
+	background: var(--cor-complementar13);
+}

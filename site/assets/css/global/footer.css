@@ -1,0 +1,14 @@
+.footer {
+	color: var(--cor-branco);
+	font-size: 1rem;
+}
+
+.footer strong {
+	color: var(--cor-complementar11);
+	text-transform: uppercase;
+}
+
+.footer a {
+	color: #fff;
+	text-decoration: none;
+}

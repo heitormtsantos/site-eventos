@@ -1,0 +1,120 @@
+.programacao h2 {
+	font-size: 2.5rem;
+	color: var(--cor-complementar1);
+
+}
+
+@media (min-width: 768px) {
+	.programacao h2 {
+		font-size: 5rem;
+		background: linear-gradient(to bottom, var(--cor-complementar1), #000);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent; 
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
+		background-clip: text;
+	/* text-fill-color: transparent; */
+	}
+}
+
+@media (min-width: 1000px) {
+	.programacao h2 {
+		font-size: 7.8rem;
+	}
+}
+
+.programacao hr {
+	height: 3px;
+	background: var(--cor-principal);
+	opacity: 1;
+	border-radius: 8px;
+	max-width: 155px;
+}
+
+@media (min-width: 768px) {
+	.programacao hr {
+		height: 6px;
+		max-width: 255px;
+	}
+}
+
+
+.programacao__subtitulo {
+	font-size: 1rem;
+	line-height: 1.4rem;
+	font-weight: 500;
+}
+
+@media (min-width: 600px) {
+	.programacao__subtitulo {
+		font-size: 1.4rem;
+		line-height: 1.8rem;
+	}
+}
+
+@media (min-width: 769px) {
+	.programacao__subtitulo {
+		font-size: 2rem;
+		line-height: 2.4rem;
+	}
+}
+
+
+.swiper-programacao__item h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+.programacao__hora {
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.swiper-button-prev-programacao:after {
+    content: url(../../img/prev.png) !important;
+}
+
+.swiper-button-next-programacao:after {
+    content: url(../../img/next.png) !important;
+}
+
+.swiper-button-next-programacao, 
+.swiper-button-prev-programacao {
+	width: 44px !important;
+}
+
+.swiper-shadow1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50px;
+	bottom: 0;
+	background: linear-gradient(to right, rgba(0,0,0, 1), rgba(0,0,0, .8),  transparent);
+	z-index: 9;
+}
+
+.swiper-shadow2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	bottom: 0;
+	background: linear-gradient(to left, rgba(0,0,0, .9), transparent);
+	z-index: 9;
+}
+
+@media (min-width: 1025px) {
+	.swiper-shadow1,
+	.swiper-shadow2 {
+		width: 80px;
+	}
+}
+
+.swiper-programacao__item img {
+	transition: all .5s;
+}
+
+.swiper-programacao__item:hover img {
+	border-color: var(--cor-principal) !important;
+	transform: scale(1.02);
+}

@@ -1,0 +1,69 @@
+.descontos h2 {
+	font-size: 2.5rem;
+	color: var(--cor-complementar1);
+	margin-bottom: 0;
+
+}
+
+@media (min-width: 768px) {
+	.descontos h2 {
+		font-size: 5rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	.descontos h2 {
+		font-size: 7.8rem;
+		line-height: 5.4rem;
+	}
+}
+
+.descontos__subtitulo {
+	font-size: 1rem;
+	line-height: 1.4rem;
+	font-weight: 400;
+}
+
+@media (min-width: 768px) {
+	.descontos__subtitulo {
+		font-size: 1.4rem;
+		line-height: 2.4rem;
+		font-weight: 500;
+	}
+}
+
+.descontos__conteudo {
+	background: url(../../img/bg2.jpg) no-repeat 50% 0;
+}
+
+.descontos__lista {
+	padding: 0;
+	list-style: none;
+}
+
+.descontos__lista li {
+	border-bottom: 1px solid rgba(255, 255, 255, .4);
+	padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+	.descontos__lista li {
+		display: flex;
+		align-items: center;
+		padding: 10px 0;
+	}
+
+	.descontos__lista li p {
+		flex: 1;
+		margin: 0;
+		font-size: 1.2rem;
+	}
+}
+
+
+
+.descontos__lista li:last-child {
+	border: 0;
+}
+
+

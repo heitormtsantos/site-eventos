@@ -1,0 +1,36 @@
+.lista1 {
+	padding: 0;
+	list-style: none;
+}
+
+.lista1 > li {
+	background: var(--cor-complementar14);
+	display: flex;
+	padding: 10px;
+	margin-bottom: 10px;
+	min-height: 135px;
+}
+
+.lista1 li span {
+	height: 70px;
+	max-width: 70px;
+	background: var(--cor-complementar15);
+	flex-basis: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 1.2rem;
+	margin-right: 25px;
+}
+
+
+.lista1 > li ul {
+	list-style: disc;
+}
+
+@media (min-width: 600px) {
+	.main__industrias .lista1 > li {
+		min-height: 170px;
+	}
+}
